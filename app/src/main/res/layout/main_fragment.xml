@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/search_hint"
+        android:textColorHint="@color/colorAccentLight"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:id="@+id/MainFragmentEditText"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/MainFragmentEditText"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:id="@+id/MainFragmentButton"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/search_button"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/EmptyString"
+        android:layout_below="@id/MainFragmentButton"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/empty_string"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/OrgUnavailable"
+        android:layout_below="@id/MainFragmentButton"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/org_unavailable"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@id/MainFragmentButton"/>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GitHubRepository</string>
+    <string name="search_hint">eg: nytimes, google, etc</string>
+    <string name="search_button">Search</string>
+    <string name="link">Link</string>
+    <string name="Title">Name</string>
+    <string name="Description">Description</string>
+    <string name="image_description">Organization Avatar</string>
+    <string name="star_image_description">Ratings</string>
+    <string name="empty_string">The search string cannot be empty. Type a query and try again.</string>
+    <string name="org_unavailable">The organization you entered does not exist. Type another query and try again.</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="close_application_message">Do you wish to close this application?</string>
+    <string name="close_application_title">Close Application!</string>
+</resources>
